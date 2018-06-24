@@ -89,7 +89,7 @@ a:active {
     font-size:18px;
 }
 .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
-    color: #555;
+    color: #eee8aa;
 }
 .node circle {
     fill: #fff;
@@ -124,4 +124,25 @@ a:active {
     font-size: 38px;
     text-shadow: 1px 1px 1px #7c7c7c;
     color: whitesmoke;
+}
+.subheader {
+    font-family: 'Tangerine', serif;
+    font-size: 38px;
+    text-shadow: 1px 1px 1px #7c7c7c;
+    color: #9acd32;
+    text-align: center;
+}
+.food{
+    font-family: 'Fira Sans', sans-serif;
+    color: #c5deea;
+    size: 10px;
+    float: left;
+
+}
+.dcl{
+    background: #c5deea; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #c5deea 0%, #8abbd7 44%, #066dab 82%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #c5deea 0%,#8abbd7 44%,#066dab 82%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #c5deea 0%,#8abbd7 44%,#066dab 82%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
